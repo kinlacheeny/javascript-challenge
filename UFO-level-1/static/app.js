@@ -2,30 +2,29 @@
 var tableData = data;
 
 // YOUR CODE HERE!
-function showTable(tableData){
+function showTable(tableData) {
     var tbody = d3.select(".table").select("tbody");
     tbody.html("");
-    tableData.forEach((x) => {
+    tableData.forEach((i) => {
       var row = tbody.append("tr");
-      Object.entries(x).forEach(([key, value]) => {
+      Object.entries(i).forEach(([key, value]) => {
         var cell = row.append("td");
         cell.text(value);
       });
     });
   };
   
-  //write table to html
+  //write tabledata to html
   showTable(tableData);
   
-  //listen for filter button
+  //Create Event Listener for filter button
   var button1 = d3.select("#filter-btn");
   button1.on("click", function() {
-    // Select the input element and get the raw HTML node
     var inputElement1 = d3.select("#datetime");
-      var inputValue = inputElement1.property("value");
-      var filteredData = tableData.filter(function(event){
-          if(inputValue !== null && inputValue !== ''){
-              return event.datetime === inputValue;};
+    var inputValue = inputElement1.property("value");
+    var filteredData = tableData.filter(function(event){
+        if(inputValue !== null && inputValue !== ""){
+            return event.datetime === inputValue;};
             return event.datetime;
           });
   
@@ -33,7 +32,7 @@ function showTable(tableData){
     showTable(filteredData);
   });
   
-  //clear form filters and show full table
+  //clear the form filters and show full table
   function resetForm(element) {
     element.form.reset();
     showTable(tableData);
