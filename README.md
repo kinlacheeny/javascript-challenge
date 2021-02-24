@@ -1,5 +1,5 @@
 # javascript-challenge
-Homework 14 - JavaScript Challenge
+Homework 14 - JavaScript Challenge - JB Kinlacheeny
 
 # JavaScript Homework - JavaScript and DOM Manipulation
 
@@ -14,20 +14,6 @@ That's why we are hiring you. We need you to write code that will create a table
 You can handle this... right? The planet Earth needs to know what we have found!
 
 ## Your Task
-
-### Before You Begin
-
-1. Create a new repository for this project called `javascript-challenge`. **Do not add this homework to an existing repository**.
-
-2. Clone the new repository to your computer.
-
-3. Inside your local git repository, create a directory for the Javascript challenge. Use the folder names to correspond to the challenges: **UFO-level-1** and **UFO-level-2**.
-
-4. Add your **html** files to this folder as well as your static folder containing your javascript. This will be the main script to run for analysis.
-
-5. Push the above changes to GitHub or GitLab.
-
-6. Ensure your repository has regular commits (i.e. 20+ commits) and a thorough README.md file
 
 ### Level 1: Automatic Table and Date Search (Required)
 
@@ -58,12 +44,3 @@ You can handle this... right? The planet Earth needs to know what we have found!
 * [UFO Sightings Data](StarterCode/static/js/data.js)
 
 - - -
-
-**Good luck!**
-
-- - -
-
-### Copyright
-
-Trilogy Education Services © 2019. All Rights Reserved.
-
