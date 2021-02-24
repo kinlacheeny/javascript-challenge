@@ -1,5 +1,4 @@
-# javascript-challenge
-Homework 14 - JavaScript Challenge - JB Kinlacheeny
+## Homework 14 - JavaScript Challenge - JB Kinlacheeny
 
 ## JavaScript Homework - JavaScript and DOM Manipulation
 
