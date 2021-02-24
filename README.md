@@ -1,5 +1,5 @@
 ## Homework 14 - JavaScript Challenge - JB Kinlacheeny
-
+![static/ufo1.png](ufo1.png)
 ## JavaScript Homework - JavaScript and DOM Manipulation
 
 ## Background
